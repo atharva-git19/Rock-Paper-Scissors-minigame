@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(198, 235, 190);
+}
+h1{
+    color: rgb(56, 54, 154);
+    margin-top: 5rem;
+}
+.choice{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    
+}
+.choices{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: rgb(2, 8, 135);
+}
+img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.score-board{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    font-size: 2rem;
+    color: rgb(56, 54, 154);
+}
+
+.msg-cont{
+    margin-top: 2rem;
+    background-color: rgb(2, 8, 135);
+    color: rgb(169, 219, 184);
+    display: inline-block;
+    border-radius: 1rem;
+    padding: 1rem;
+
+}
+.winning{
+    background-color: green;
+}
+.loosing{
+    background-color: red;
+}
+
